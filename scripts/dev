@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+rm -rf build/bundle.js
+
+npm run dev
