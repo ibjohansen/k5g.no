@@ -17,7 +17,11 @@ config = {
             {
                 test: /\.css$/, // Only .css files
                 loader: 'style!css' // Run both loaders
-            }
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/, loader: 'url-loader?limit=8192'
+            } // inline base64 URLs for <=8k images, direct URLs for the rest
+
         ],
         noParse: [pathToReact]
     }

@@ -16,63 +16,16 @@ module.exports = React.createClass({
 
     render() {
         return (
-            <section>
+            <div>
                 <Header/>
 
-                <div>
+                <main role="main">
                     <h1>{this.props.title}</h1>
 
                     <h3>{this.props.body}</h3>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad autem blanditiis corporis
-                        deleniti eaque, eius hic in iusto laboriosam maiores minima officia quas quasi quos sequi,
-                        soluta tempora totam.</p>
-                </div>
-            </section>
+                    <img src={require('../../images/top1.jpg')} alt=""/>
+                </main>
+            </div>
         )
     }
 });

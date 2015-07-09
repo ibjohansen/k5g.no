@@ -16,16 +16,15 @@ module.exports = React.createClass({
 
     render() {
         return (
-            <section>
+            <div>
                 <Header/>
 
-                <div>
+                <main role="main">
                     <h1>{this.props.title}</h1>
 
                     <h3>{this.props.body}</h3>
-                </div>
-                <div><Link to="/"> go home</Link></div>
-            </section>
+                </main>
+            </div>
         )
     }
 });
